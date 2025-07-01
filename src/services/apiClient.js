@@ -2,7 +2,7 @@
 import axios from 'axios';
 
 const apiClient = axios.create({
-  baseURL: 'https://railway-backend-production-8a17.up.railway.app/api', // Nota que incluimos /api en la URL base
+  baseURL: 'https://railway-backend-production-8a17.up.railway.app/api',
 });
 
 // Más adelante, aquí configuraremos los "interceptors" para manejar errores
